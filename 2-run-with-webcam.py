@@ -1,7 +1,7 @@
 import cv2
-import  numpy as np 
+import numpy as np 
 
-faceModel = cv2.CascadeClassifier("haarcascade-frontalface-default.xml")
+faceModel = cv2.CascadeClassifier("C:/Users/Nithushan/OneDrive/Desktop/face-detection/haarcascade-frontalface-default.xml")
 
 video = cv2.VideoCapture(0)
 
