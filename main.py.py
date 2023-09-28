@@ -8,9 +8,10 @@ video = cv2.VideoCapture(0)
 while True:
 	
 	ret,img = video.read()
-	gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+	gray = cv2.cvtColor(img,cv2.COLOR_RGB2BGR)
 
 	faces = faceModel.detectMultiScale(gray,1.1,5)
+	print("Face detect")
 
 	for(x,y,w,h) in faces:
 		cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),3)
