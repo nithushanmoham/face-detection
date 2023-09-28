@@ -15,7 +15,7 @@ while True:
 	for(x,y,w,h) in faces:
 		cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),3)
 	
-	cv2.imshow("Video",img)
+	cv2.imshow("Face Detection",img)
 
 
 	if(cv2.waitKey(1)==ord("q")):
