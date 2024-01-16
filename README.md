@@ -1,4 +1,4 @@
-# Face Detection System
+# Face-Detection-System
 
 ## Introduction
 This repository contains the source code and resources for a real-time face detection system developed using Python and OpenCV. The system leverages Haar Cascade Classifiers to detect human faces in images and video streams.
